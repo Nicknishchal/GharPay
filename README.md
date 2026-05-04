@@ -323,6 +323,44 @@ Gharpay/
 
 ---
 
+## UI Preview
+
+### Dashboard
+A high-level overview of the CRM with key metrics including total leads, new leads, scheduled visits, and closed deals. Provides quick visibility into pipeline health.
+
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+### Leads Pipeline (Kanban)
+Drag-and-drop pipeline for managing leads across different stages such as New, Contacted, and Visit Scheduled. Enables smooth workflow tracking and updates.
+
+![Pipeline](./screenshots/pipeline.png)
+
+---
+
+### Add Lead Form
+Form to capture new leads with validation for required fields such as name, phone number, budget, and location. Ensures clean and structured data entry.
+
+![Add Lead Form](./screenshots/form.png)
+
+---
+
+### Lead Details & Management
+Detailed view of a lead including contact information, status updates, assignment, scheduling visits, and notes. Acts as the central control panel for each lead.
+
+![Lead Modal](./screenshots/modal.png)
+
+---
+
+### Assign Owner / Add User
+Allows assigning leads to agents and dynamically adding new users directly from the interface for better flexibility in team management.
+
+![Assign User](./screenshots/add-user-1.png)
+![Add User](./screenshots/add-user-2.png)
+
+---
+
 ## License
 
 This project was built as part of a technical assignment. All rights reserved.
