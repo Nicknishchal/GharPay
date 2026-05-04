@@ -1,0 +1,130 @@
+# =============================================================================
+# GHARPAY — .gitignore  (root of project)
+# Paths are relative to this file: Gharpay/
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+# PYTHON / FASTAPI  →  Backend/
+# -----------------------------------------------------------------------------
+
+# Virtual environments
+Backend/venv/
+Backend/.venv/
+Backend/env/
+Backend/ENV/
+
+# Python bytecode
+Backend/__pycache__/
+Backend/**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/*$py.class
+
+# Distribution / packaging
+Backend/dist/
+Backend/build/
+Backend/*.egg-info/
+Backend/.eggs/
+
+# Testing & coverage
+Backend/.pytest_cache/
+Backend/htmlcov/
+Backend/.coverage
+Backend/coverage.xml
+Backend/.hypothesis/
+
+# Type checking / linting caches
+Backend/.mypy_cache/
+Backend/.ruff_cache/
+
+# pyenv
+Backend/.python-version
+
+
+# -----------------------------------------------------------------------------
+# NODE / NEXT.JS  →  Frontend/
+# -----------------------------------------------------------------------------
+
+# Dependencies
+Frontend/node_modules/
+
+# Build output
+Frontend/.next/
+Frontend/out/
+Frontend/build/
+Frontend/dist/
+
+# Caches & temp
+Frontend/.turbo/
+Frontend/temp_app/
+Frontend/coverage/
+
+# TypeScript generated
+Frontend/*.tsbuildinfo
+Frontend/next-env.d.ts
+
+# Debug logs
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/.pnpm-debug.log*
+
+# Deployment
+Frontend/.vercel
+Frontend/.netlify
+
+# Yarn
+Frontend/.yarn/*
+!Frontend/.yarn/patches
+!Frontend/.yarn/plugins
+!Frontend/.yarn/releases
+!Frontend/.yarn/versions
+
+
+# -----------------------------------------------------------------------------
+# ENVIRONMENT & SECRETS  (anywhere in project)
+# -----------------------------------------------------------------------------
+
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.cert
+
+
+# -----------------------------------------------------------------------------
+# EDITORS & IDEs
+# -----------------------------------------------------------------------------
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+
+# -----------------------------------------------------------------------------
+# OS GENERATED FILES
+# -----------------------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+
+# -----------------------------------------------------------------------------
+# LOGS & MISC
+# -----------------------------------------------------------------------------
+
+logs/
+*.log
+*.tmp
+*.bak
+*.orig
